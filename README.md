@@ -44,6 +44,21 @@ refer back to any of this when I'm doing some new project four years from now.)
   polynomial.  Checks the Tangent version of the gradient matches the same
   results we get from a manually-specified version of the gradient.
 
+### Roadmap
+
+Here's the basic trajectory I see this taking:
+
+* ~~Auto-differentiate a scalar function.~~ (Done!)
+* Auto-differentiate a function with multiple input variables.
+* Define and train a neural net classifier using auto-differentiation --
+  probably using the MNIST digit set.
+  * Simple logistic regression binary classifier (no hidden layer)
+  * Add a hidden layer to the binary classifier
+  * Upgrade the output layer to support multiple classes
+* Define and build an autoencoder.  Use it to synthesize new data examples.
+* Define a neural net with recurrent state -- probably a reimplementation of
+  "CharRNN".  Use it to synthesize new strings.
+
 ## Set up
 
 To get the code to run, I first ran these commands, after setting up a new

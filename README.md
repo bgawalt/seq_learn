@@ -50,6 +50,8 @@ Here's the basic trajectory I see this taking:
 
 * ~~Auto-differentiate a scalar function.~~ (Done!)
 * Auto-differentiate a function with multiple input variables.
+* Use auto-differentiation to minimize a univariate function.
+* Use auto-differentiation to minimize a multivariate function.
 * Define and train a neural net classifier using auto-differentiation --
   probably using the MNIST digit set.
   * Simple logistic regression binary classifier (no hidden layer)

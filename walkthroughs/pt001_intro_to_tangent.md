@@ -4,10 +4,6 @@ This routine is just me playing around with just the gut-simplest functionality
 of Tangent: defining functions, and asking Tangent to automatically
 differentiate them for me.
 
-One question I haven't been able to answer from reading Tangent's docs: how
-does it handle multi-parameter functions, exactly?  I'll keep playing around in
-`intro_to_tangent` to find out.
-
 Right now it produces:
 
 ```
